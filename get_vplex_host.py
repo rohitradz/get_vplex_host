@@ -102,5 +102,6 @@ if val == '1':
 else:
     sys.exit(0)
 
+print ("\n")
 for i in hst_lst:
     print(i)
