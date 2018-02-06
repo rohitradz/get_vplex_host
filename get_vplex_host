@@ -10,7 +10,9 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
+
 hst_lst = []
+test_vplex=''
 
 
 def vpl_fetch(url):
